@@ -1,0 +1,8 @@
+Params: Namespace(backbone_model_id='sentence-transformers/all-MiniLM-L6-v2', dataset='scifact', dataset_length=None, batch_size=128, kmeans_n_clusters=8, hnsw_M=32, hnsw_ef_search=16, hnsw_ef_construction=40, index_n_neighbors=8, search_top_k=1000, search_n_neighbors=3, train_hnsw_only=False, in_memory_index=False, use_cache=False, base_path='./')
+Dataset downloaded here: /home/slava/Developer/IdeaProjects/sparsifier-model/datasets/scifact
+Corpus size=5183, queries size=300, qrels size=300
+Dense similarity threshold: tensor([22.7136])
+Constructed HNSW levels: [    0 82689  2639    76     3]
+HNSW index size:  85407
+The folder './runs/spar_k_means_bert/lucene_inverted_index' and its contents have been successfully deleted.
+{'NDCG@1': 0.5, 'NDCG@3': 0.58139, 'NDCG@5': 0.60079, 'NDCG@10': 0.62364, 'NDCG@100': 0.65065, 'NDCG@1000': 0.66444} {'MAP@1': 0.48167, 'MAP@3': 0.55496, 'MAP@5': 0.56649, 'MAP@10': 0.57874, 'MAP@100': 0.58458, 'MAP@1000': 0.58512} {'Recall@1': 0.48167, 'Recall@3': 0.63733, 'Recall@5': 0.68494, 'Recall@10': 0.74756, 'Recall@100': 0.86967, 'Recall@1000': 0.97667} {'P@1': 0.5, 'P@3': 0.22556, 'P@5': 0.148, 'P@10': 0.084, 'P@100': 0.00983, 'P@1000': 0.00111} {'MRR@1': 0.5, 'MRR@3': 0.57222, 'MRR@5': 0.58306, 'MRR@10': 0.5895, 'MRR@100': 0.59473, 'MRR@1000': 0.59516}

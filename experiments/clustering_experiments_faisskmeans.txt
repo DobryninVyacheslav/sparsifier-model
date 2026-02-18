@@ -1,0 +1,19 @@
+Params: Namespace(backbone_model_id='sentence-transformers/all-MiniLM-L6-v2', dataset='scifact', dataset_length=None, batch_size=128, kmeans_n_clusters=8, hnsw_M=32, hnsw_ef_search=16, hnsw_ef_construction=40, index_n_neighbors=8, search_top_k=1000, search_n_neighbors=3, train_hnsw_only=False, in_memory_index=False, use_cache=False, base_path='./')
+Dataset downloaded here: /home/slava/Developer/IdeaProjects/sparsifier-model/datasets/scifact
+Corpus size=5183, queries size=300, qrels size=300
+Dense similarity threshold: tensor([22.7136])
+Constructed HNSW levels: [    0 82689  2639    76     3]
+HNSW index size:  85407
+The folder './runs/spar_k_means_bert/lucene_inverted_index' and its contents have been successfully deleted.
+{'NDCG@1': 0.51667, 'NDCG@3': 0.58909, 'NDCG@5': 0.61406, 'NDCG@10': 0.63458, 'NDCG@100': 0.66274, 'NDCG@1000': 0.6746} {'MAP@1': 0.50056, 'MAP@3': 0.56617, 'MAP@5': 0.58101, 'MAP@10': 0.59195, 'MAP@100': 0.59765, 'MAP@1000': 0.59814} {'Recall@1': 0.50056, 'Recall@3': 0.63622, 'Recall@5': 0.69467, 'Recall@10': 0.75133, 'Recall@100': 0.88367, 'Recall@1000': 0.97333} {'P@1': 0.51667, 'P@3': 0.22444, 'P@5': 0.15, 'P@10': 0.08333, 'P@100': 0.00997, 'P@1000': 0.0011} {'MRR@1': 0.51667, 'MRR@3': 0.58333, 'MRR@5': 0.59733, 'MRR@10': 0.60404, 'MRR@100': 0.60857, 'MRR@1000': 0.60897}
+
+
+niter=4
+Params: Namespace(backbone_model_id='sentence-transformers/all-MiniLM-L6-v2', dataset='scifact', dataset_length=None, batch_size=128, kmeans_n_clusters=8, hnsw_M=32, hnsw_ef_search=16, hnsw_ef_construction=40, index_n_neighbors=8, search_top_k=1000, search_n_neighbors=3, train_hnsw_only=False, in_memory_index=False, use_cache=False, base_path='./')
+Dataset downloaded here: /home/slava/Developer/IdeaProjects/sparsifier-model/datasets/scifact
+Corpus size=5183, queries size=300, qrels size=300
+Dense similarity threshold: tensor([22.7136])
+Constructed HNSW levels: [    0 82689  2639    76     3]
+HNSW index size:  85407
+The folder './runs/spar_k_means_bert/lucene_inverted_index' and its contents have been successfully deleted.
+{'NDCG@1': 0.53, 'NDCG@3': 0.58901, 'NDCG@5': 0.61001, 'NDCG@10': 0.62848, 'NDCG@100': 0.66192, 'NDCG@1000': 0.67275} {'MAP@1': 0.50917, 'MAP@3': 0.56491, 'MAP@5': 0.57881, 'MAP@10': 0.58879, 'MAP@100': 0.59626, 'MAP@1000': 0.59668} {'Recall@1': 0.50917, 'Recall@3': 0.63439, 'Recall@5': 0.68467, 'Recall@10': 0.73478, 'Recall@100': 0.88633, 'Recall@1000': 0.97167} {'P@1': 0.53, 'P@3': 0.22556, 'P@5': 0.14867, 'P@10': 0.08233, 'P@100': 0.01, 'P@1000': 0.0011} {'MRR@1': 0.53, 'MRR@3': 0.58556, 'MRR@5': 0.59689, 'MRR@10': 0.60241, 'MRR@100': 0.60876, 'MRR@1000': 0.60906}
