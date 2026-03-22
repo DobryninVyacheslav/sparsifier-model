@@ -163,6 +163,11 @@ if __name__ == "__main__":
     start = time.time()
     results = inverted_index.search(queries, query_tokens_calculator, args.search_top_k)
     print("Search time:", time.time() - start)
+    # for q_id, ids_scores in results.items():
+    #     print("QUERY:", queries[q_id])
+    #     top10_ids = [k for k, _ in sorted(ids_scores.items(), key=lambda kv: kv[1], reverse=True)[:10]]
+    #     for i, top10_id in enumerate(top10_ids):
+    #         print(i+1, dataset.docs[dataset.doc_id_to_idx[top10_id]])
     ndcg, _map, recall, precision, mrr = eval_with_dot_score_function(qrels, results)
     print(ndcg, _map, recall, precision, mrr)
     with open("retrieval_results.txt", "a") as f:

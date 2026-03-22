@@ -1,0 +1,39 @@
+The folder './runs/common/lucene_hnsw_index' and its contents have been successfully deleted.
+Dataset downloaded here: /home/slava/Developer/IdeaProjects/sparsifier-model/datasets/msmarco
+Corpus size=25000, queries size=19, qrels size=19
+HNSW index size: 25000
+Search time: 0.5816314220428467
+{'NDCG@1': 0.21053, 'NDCG@3': 0.23846, 'NDCG@5': 0.22381, 'NDCG@10': 0.24102, 'NDCG@100': 0.28441, 'NDCG@1000': 0.2898}
+{'MRR@1': 0.21053, 'MRR@3': 0.23684, 'MRR@5': 0.23684, 'MRR@10': 0.24561, 'MRR@100': 0.25107, 'MRR@1000': 0.25113}
+{'MAP@1': 0.16374, 'MAP@3': 0.18567, 'MAP@5': 0.19152, 'MAP@10': 0.2156, 'MAP@100': 0.23366, 'MAP@1000': 0.23372}
+{'Recall@1': 0.16374, 'Recall@3': 0.19298, 'Recall@5': 0.19883, 'Recall@10': 0.26901, 'Recall@100': 0.42105, 'Recall@1000': 0.47368}
+{'P@1': 0.21053, 'P@3': 0.14035, 'P@5': 0.09474, 'P@10': 0.07368, 'P@100': 0.01158, 'P@1000': 0.00121}
+75M	runs/common/lucene_hnsw_index
+
+
+The folder './runs/common/lucene_hnsw_index' and its contents have been successfully deleted.
+Dataset downloaded here: /home/slava/Developer/IdeaProjects/sparsifier-model/datasets/msmarco
+Corpus size=50000, queries size=24, qrels size=24
+HNSW index size: 50000
+Search time: 0.805750846862793
+{'NDCG@1': 0.29167, 'NDCG@3': 0.30144, 'NDCG@5': 0.32292, 'NDCG@10': 0.35128, 'NDCG@100': 0.38046, 'NDCG@1000': 0.38776}
+{'MRR@1': 0.29167, 'MRR@3': 0.30556, 'MRR@5': 0.32222, 'MRR@10': 0.32917, 'MRR@100': 0.33106, 'MRR@1000': 0.33132}
+{'MAP@1': 0.25463, 'MAP@3': 0.26736, 'MAP@5': 0.28657, 'MAP@10': 0.31721, 'MAP@100': 0.32669, 'MAP@1000': 0.3273}
+{'Recall@1': 0.25463, 'Recall@3': 0.27431, 'Recall@5': 0.33623, 'Recall@10': 0.41782, 'Recall@100': 0.53646, 'Recall@1000': 0.58333}
+{'P@1': 0.29167, 'P@3': 0.13889, 'P@5': 0.11667, 'P@10': 0.09167, 'P@100': 0.01292, 'P@1000': 0.00138}
+149M	runs/common/lucene_hnsw_index
+
+
+The folder './runs/common/lucene_hnsw_index' and its contents have been successfully deleted.
+Dataset downloaded here: /home/slava/Developer/IdeaProjects/sparsifier-model/datasets/msmarco
+Corpus size=100000, queries size=32, qrels size=32
+HNSW index size: 100000
+Search time: 1.216813087463379
+{'NDCG@1': 0.32292, 'NDCG@3': 0.3502, 'NDCG@5': 0.36733, 'NDCG@10': 0.37098, 'NDCG@100': 0.40988, 'NDCG@1000': 0.4207}
+{'MRR@1': 0.375, 'MRR@3': 0.38542, 'MRR@5': 0.39167, 'MRR@10': 0.39514, 'MRR@100': 0.39807, 'MRR@1000': 0.39823}
+{'MAP@1': 0.15362, 'MAP@3': 0.24992, 'MAP@5': 0.30178, 'MAP@10': 0.34459, 'MAP@100': 0.36844, 'MAP@1000': 0.36894}
+{'Recall@1': 0.15362, 'Recall@3': 0.25773, 'Recall@5': 0.34171, 'Recall@10': 0.40815, 'Recall@100': 0.54297, 'Recall@1000': 0.625}
+{'P@1': 0.375, 'P@3': 0.30208, 'P@5': 0.25625, 'P@10': 0.175, 'P@100': 0.02406, 'P@1000': 0.00253}
+298M	runs/common/lucene_hnsw_index
+
+

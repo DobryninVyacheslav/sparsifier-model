@@ -1,0 +1,153 @@
+Device: cuda True
+Torch: 2.5.1
+torch.Size([1, 3000])
+Number of nonzero tensor(600, device='cuda:0')
+Dataset downloaded here: /home/slava/Developer/IdeaProjects/sparsifier-model/datasets/msmarco
+Corpus size=25000, queries size=19, qrels size=19
+The folder './runs/sparsifier_model/lucene_inverted_index' and its contents have been successfully deleted.
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mchocolate-monkey-29[0m at: [34mhttps://wandb.ai/vector-search/sparsifier-model/runs/zoodutp6[0m
+[1;34mwandb[0m: Find logs at: [1;35mwandb/run-20250604_135607-zoodutp6/logs[0m
+Inverted index size: 25000
+Search time: 4.28973650932312
+{'NDCG@1': 0.21053, 'NDCG@3': 0.23846, 'NDCG@5': 0.22381, 'NDCG@10': 0.2535, 'NDCG@100': 0.27604, 'NDCG@1000': 0.28339} {'MAP@1': 0.16374, 'MAP@3': 0.18567, 'MAP@5': 0.19152, 'MAP@10': 0.21662, 'MAP@100': 0.23073, 'MAP@1000': 0.2311} {'Recall@1': 0.16374, 'Recall@3': 0.19298, 'Recall@5': 0.19883, 'Recall@10': 0.31579, 'Recall@100': 0.36842, 'Recall@1000': 0.42105} {'P@1': 0.21053, 'P@3': 0.14035, 'P@5': 0.09474, 'P@10': 0.07368, 'P@100': 0.01105, 'P@1000': 0.00116} {'MRR@1': 0.21053, 'MRR@3': 0.23684, 'MRR@5': 0.23684, 'MRR@10': 0.25219, 'MRR@100': 0.25219, 'MRR@1000': 0.25256}
+Query time: 0.22553086280822754
+60M	runs/sparsifier_model/lucene_inverted_index
+
+
+Device: cuda True
+Torch: 2.5.1
+torch.Size([1, 3000])
+Number of nonzero tensor(600, device='cuda:0')
+Dataset downloaded here: /home/slava/Developer/IdeaProjects/sparsifier-model/datasets/msmarco
+Corpus size=50000, queries size=24, qrels size=24
+The folder './runs/sparsifier_model/lucene_inverted_index' and its contents have been successfully deleted.
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mlikely-dream-30[0m at: [34mhttps://wandb.ai/vector-search/sparsifier-model/runs/qb6sxvkm[0m
+[1;34mwandb[0m: Find logs at: [1;35mwandb/run-20250604_152450-qb6sxvkm/logs[0m
+Inverted index size: 50000
+Search time: 8.79619574546814
+{'NDCG@1': 0.29167, 'NDCG@3': 0.30144, 'NDCG@5': 0.30134, 'NDCG@10': 0.34043, 'NDCG@100': 0.3678, 'NDCG@1000': 0.38183} {'MAP@1': 0.25463, 'MAP@3': 0.26736, 'MAP@5': 0.2772, 'MAP@10': 0.3066, 'MAP@100': 0.3181, 'MAP@1000': 0.31913} {'Recall@1': 0.25463, 'Recall@3': 0.27431, 'Recall@5': 0.28935, 'Recall@10': 0.40799, 'Recall@100': 0.48958, 'Recall@1000': 0.58333} {'P@1': 0.29167, 'P@3': 0.13889, 'P@5': 0.1, 'P@10': 0.08333, 'P@100': 0.01208, 'P@1000': 0.00138} {'MRR@1': 0.29167, 'MRR@3': 0.30556, 'MRR@5': 0.30556, 'MRR@10': 0.32366, 'MRR@100': 0.32611, 'MRR@1000': 0.32654}
+Query time: 0.3465731143951416
+113M	runs/sparsifier_model/lucene_inverted_index
+
+
+Device: cuda True
+Torch: 2.5.1
+torch.Size([1, 3000])
+Number of nonzero tensor(600, device='cuda:0')
+Dataset downloaded here: /home/slava/Developer/IdeaProjects/sparsifier-model/datasets/msmarco
+Corpus size=100000, queries size=32, qrels size=32
+The folder './runs/sparsifier_model/lucene_inverted_index' and its contents have been successfully deleted.
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mfaithful-planet-31[0m at: [34mhttps://wandb.ai/vector-search/sparsifier-model/runs/v447mfnj[0m
+[1;34mwandb[0m: Find logs at: [1;35mwandb/run-20250604_161440-v447mfnj/logs[0m
+Inverted index size: 100000
+Search time: 24.18004322052002
+{'NDCG@1': 0.32292, 'NDCG@3': 0.3502, 'NDCG@5': 0.35349, 'NDCG@10': 0.3616, 'NDCG@100': 0.40623, 'NDCG@1000': 0.41836} {'MAP@1': 0.15362, 'MAP@3': 0.24992, 'MAP@5': 0.29553, 'MAP@10': 0.33533, 'MAP@100': 0.36284, 'MAP@1000': 0.36344} {'Recall@1': 0.15362, 'Recall@3': 0.25773, 'Recall@5': 0.31046, 'Recall@10': 0.39557, 'Recall@100': 0.53906, 'Recall@1000': 0.625} {'P@1': 0.375, 'P@3': 0.30208, 'P@5': 0.25, 'P@10': 0.16562, 'P@100': 0.02375, 'P@1000': 0.00253} {'MRR@1': 0.375, 'MRR@3': 0.38542, 'MRR@5': 0.38542, 'MRR@10': 0.38932, 'MRR@100': 0.39667, 'MRR@1000': 0.39692}
+Query time: 0.7202427387237549
+224M	runs/sparsifier_model/lucene_inverted_index
+
+NEW MODEL
+Device: cuda True
+Torch: 2.5.1
+torch.Size([1, 3000])
+Number of nonzero tensor(100, device='cuda:0')
+Dataset downloaded here: /home/slava/Developer/IdeaProjects/sparsifier-model/datasets/msmarco
+Corpus size=25000, queries size=19, qrels size=19
+The folder './runs/sparsifier_model/lucene_inverted_index' and its contents have been successfully deleted.
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mkind-spaceship-32[0m at: [34mhttps://wandb.ai/vector-search/sparsifier-model/runs/ijvnwl6a[0m
+[1;34mwandb[0m: Find logs at: [1;35mwandb/run-20250604_180948-ijvnwl6a/logs[0m
+Inverted index size: 25000
+Search time: 0.7089908123016357
+{'NDCG@1': 0.21053, 'NDCG@3': 0.23089, 'NDCG@5': 0.23647, 'NDCG@10': 0.22684, 'NDCG@100': 0.2458, 'NDCG@1000': 0.26605} {'MAP@1': 0.16374, 'MAP@3': 0.1886, 'MAP@5': 0.20497, 'MAP@10': 0.20984, 'MAP@100': 0.2151, 'MAP@1000': 0.21671} {'Recall@1': 0.16374, 'Recall@3': 0.20175, 'Recall@5': 0.23392, 'Recall@10': 0.23977, 'Recall@100': 0.2924, 'Recall@1000': 0.42105} {'P@1': 0.21053, 'P@3': 0.12281, 'P@5': 0.09474, 'P@10': 0.05263, 'P@100': 0.00895, 'P@1000': 0.00116} {'MRR@1': 0.21053, 'MRR@3': 0.23684, 'MRR@5': 0.23684, 'MRR@10': 0.23684, 'MRR@100': 0.23844, 'MRR@1000': 0.23906}
+Query time: 0.03505825996398926
+13M	runs/sparsifier_model/lucene_inverted_index
+
+
+Device: cuda True
+Torch: 2.5.1
+torch.Size([1, 3000])
+Number of nonzero tensor(100, device='cuda:0')
+Dataset downloaded here: /home/slava/Developer/IdeaProjects/sparsifier-model/datasets/msmarco
+Corpus size=50000, queries size=24, qrels size=24
+The folder './runs/sparsifier_model/lucene_inverted_index' and its contents have been successfully deleted.
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mrobust-river-33[0m at: [34mhttps://wandb.ai/vector-search/sparsifier-model/runs/koqplnvo[0m
+[1;34mwandb[0m: Find logs at: [1;35mwandb/run-20250604_182726-koqplnvo/logs[0m
+Inverted index size: 50000
+Search time: 1.15596604347229
+{'NDCG@1': 0.16667, 'NDCG@3': 0.19256, 'NDCG@5': 0.22658, 'NDCG@10': 0.2183, 'NDCG@100': 0.25615, 'NDCG@1000': 0.27828} {'MAP@1': 0.12963, 'MAP@3': 0.15278, 'MAP@5': 0.18762, 'MAP@10': 0.18993, 'MAP@100': 0.19985, 'MAP@1000': 0.20116} {'Recall@1': 0.12963, 'Recall@3': 0.17014, 'Recall@5': 0.2581, 'Recall@10': 0.26273, 'Recall@100': 0.41204, 'Recall@1000': 0.54167} {'P@1': 0.16667, 'P@3': 0.11111, 'P@5': 0.10833, 'P@10': 0.05833, 'P@100': 0.00875, 'P@1000': 0.00133} {'MRR@1': 0.16667, 'MRR@3': 0.20139, 'MRR@5': 0.21181, 'MRR@10': 0.21181, 'MRR@100': 0.21963, 'MRR@1000': 0.22026}
+Query time: 0.0457763671875
+24M	runs/sparsifier_model/lucene_inverted_index
+
+
+Device: cuda True
+Torch: 2.5.1
+torch.Size([1, 3000])
+Number of nonzero tensor(100, device='cuda:0')
+Dataset downloaded here: /home/slava/Developer/IdeaProjects/sparsifier-model/datasets/msmarco
+Corpus size=100000, queries size=32, qrels size=32
+The folder './runs/sparsifier_model/lucene_inverted_index' and its contents have been successfully deleted.
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mstoic-jazz-34[0m at: [34mhttps://wandb.ai/vector-search/sparsifier-model/runs/0mg7bbon[0m
+[1;34mwandb[0m: Find logs at: [1;35mwandb/run-20250604_185213-0mg7bbon/logs[0m
+Inverted index size: 100000
+Search time: 1.8565404415130615
+{'NDCG@1': 0.24479, 'NDCG@3': 0.27647, 'NDCG@5': 0.27721, 'NDCG@10': 0.28867, 'NDCG@100': 0.31151, 'NDCG@1000': 0.33398} {'MAP@1': 0.09112, 'MAP@3': 0.17075, 'MAP@5': 0.21436, 'MAP@10': 0.24614, 'MAP@100': 0.26295, 'MAP@1000': 0.26441} {'Recall@1': 0.09112, 'Recall@3': 0.19159, 'Recall@5': 0.24692, 'Recall@10': 0.32615, 'Recall@100': 0.41493, 'Recall@1000': 0.54167} {'P@1': 0.3125, 'P@3': 0.26042, 'P@5': 0.225, 'P@10': 0.14375, 'P@100': 0.01844, 'P@1000': 0.00241} {'MRR@1': 0.3125, 'MRR@3': 0.33854, 'MRR@5': 0.33854, 'MRR@10': 0.34375, 'MRR@100': 0.34425, 'MRR@1000': 0.34457}
+Query time: 0.05935263633728027
+46M	runs/sparsifier_model/lucene_inverted_index
+
+
+
+
+Device: cuda True
+Torch: 2.5.1
+torch.Size([1, 3000])
+Number of nonzero tensor(200, device='cuda:0')
+Dataset downloaded here: /home/slava/Developer/IdeaProjects/sparsifier-model/datasets/msmarco
+Corpus size=25000, queries size=19, qrels size=19
+The folder './runs/sparsifier_model/lucene_inverted_index' and its contents have been successfully deleted.
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mzany-glitter-35[0m at: [34mhttps://wandb.ai/vector-search/sparsifier-model/runs/g6qk68c5[0m
+[1;34mwandb[0m: Find logs at: [1;35mwandb/run-20250604_202302-g6qk68c5/logs[0m
+Inverted index size: 25000
+Search time: 1.0917253494262695
+{'NDCG@1': 0.21053, 'NDCG@3': 0.21053, 'NDCG@5': 0.21131, 'NDCG@10': 0.24507, 'NDCG@100': 0.27831, 'NDCG@1000': 0.27831} {'MAP@1': 0.16374, 'MAP@3': 0.17544, 'MAP@5': 0.18348, 'MAP@10': 0.21171, 'MAP@100': 0.226, 'MAP@1000': 0.226} {'Recall@1': 0.16374, 'Recall@3': 0.17544, 'Recall@5': 0.19006, 'Recall@10': 0.30702, 'Recall@100': 0.42105, 'Recall@1000': 0.42105} {'P@1': 0.21053, 'P@3': 0.10526, 'P@5': 0.08421, 'P@10': 0.06842, 'P@100': 0.01158, 'P@1000': 0.00116} {'MRR@1': 0.21053, 'MRR@3': 0.21053, 'MRR@5': 0.22368, 'MRR@10': 0.24123, 'MRR@100': 0.24179, 'MRR@1000': 0.24179}
+Query time: 0.057068586349487305
+25M	runs/sparsifier_model/lucene_inverted_index
+
+
+Device: cuda True
+Torch: 2.5.1
+torch.Size([1, 3000])
+Number of nonzero tensor(200, device='cuda:0')
+Dataset downloaded here: /home/slava/Developer/IdeaProjects/sparsifier-model/datasets/msmarco
+Corpus size=50000, queries size=24, qrels size=24
+The folder './runs/sparsifier_model/lucene_inverted_index' and its contents have been successfully deleted.
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mdeft-cherry-36[0m at: [34mhttps://wandb.ai/vector-search/sparsifier-model/runs/jzyex7jd[0m
+[1;34mwandb[0m: Find logs at: [1;35mwandb/run-20250604_204614-jzyex7jd/logs[0m
+Inverted index size: 50000
+Search time: 2.328993558883667
+{'NDCG@1': 0.25, 'NDCG@3': 0.25978, 'NDCG@5': 0.25967, 'NDCG@10': 0.29728, 'NDCG@100': 0.33428, 'NDCG@1000': 0.34862} {'MAP@1': 0.21296, 'MAP@3': 0.22569, 'MAP@5': 0.23553, 'MAP@10': 0.25926, 'MAP@100': 0.27486, 'MAP@1000': 0.27589} {'Recall@1': 0.21296, 'Recall@3': 0.23264, 'Recall@5': 0.24769, 'Recall@10': 0.3831, 'Recall@100': 0.48438, 'Recall@1000': 0.58333} {'P@1': 0.25, 'P@3': 0.125, 'P@5': 0.09167, 'P@10': 0.06667, 'P@100': 0.01167, 'P@1000': 0.00138} {'MRR@1': 0.25, 'MRR@3': 0.26389, 'MRR@5': 0.26389, 'MRR@10': 0.28067, 'MRR@100': 0.28712, 'MRR@1000': 0.28749}
+Query time: 0.10130763053894043
+43M	runs/sparsifier_model/lucene_inverted_index
+
+
+Device: cuda True
+Torch: 2.5.1
+torch.Size([1, 3000])
+Number of nonzero tensor(200, device='cuda:0')
+Dataset downloaded here: /home/slava/Developer/IdeaProjects/sparsifier-model/datasets/msmarco
+Corpus size=100000, queries size=32, qrels size=32
+The folder './runs/sparsifier_model/lucene_inverted_index' and its contents have been successfully deleted.
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mjolly-totem-37[0m at: [34mhttps://wandb.ai/vector-search/sparsifier-model/runs/ojqb9jit[0m
+[1;34mwandb[0m: Find logs at: [1;35mwandb/run-20250604_223606-ojqb9jit/logs[0m
+Inverted index size: 100000
+Search time: 4.09868311882019
+{'NDCG@1': 0.34375, 'NDCG@3': 0.3562, 'NDCG@5': 0.35224, 'NDCG@10': 0.34848, 'NDCG@100': 0.39314, 'NDCG@1000': 0.41012} {'MAP@1': 0.15362, 'MAP@3': 0.25252, 'MAP@5': 0.28842, 'MAP@10': 0.32181, 'MAP@100': 0.34243, 'MAP@1000': 0.34358} {'Recall@1': 0.15362, 'Recall@3': 0.25773, 'Recall@5': 0.30178, 'Recall@10': 0.34678, 'Recall@100': 0.50738, 'Recall@1000': 0.625} {'P@1': 0.375, 'P@3': 0.30208, 'P@5': 0.2375, 'P@10': 0.15313, 'P@100': 0.02219, 'P@1000': 0.00253} {'MRR@1': 0.375, 'MRR@3': 0.38542, 'MRR@5': 0.38542, 'MRR@10': 0.38542, 'MRR@100': 0.3925, 'MRR@1000': 0.39261}
+Query time: 0.13635516166687012
+85M	runs/sparsifier_model/lucene_inverted_index

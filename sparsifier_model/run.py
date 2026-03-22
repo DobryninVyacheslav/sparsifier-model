@@ -1,6 +1,6 @@
 import argparse
-import time
 import itertools
+import time
 from transformers import AutoTokenizer
 import wandb
 
@@ -67,7 +67,7 @@ if __name__ == "__main__":
     print("Device:", config.device, torch.cuda.is_available())
     print("Torch:", torch.__version__)
 
-    wandb_model_name = "model-fbpajxu5:v0"
+    wandb_model_name = "model-c2rfcu3i:v0"
     run = wandb.init()
     artifact = run.use_artifact(
         f"vector-search/{config.project}/{wandb_model_name}", type="model"

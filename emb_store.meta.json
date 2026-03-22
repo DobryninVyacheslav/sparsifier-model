@@ -1,0 +1,1 @@
+{"model_id": "sentence-transformers/all-MiniLM-L6-v2", "dtype": "float16", "dim": 384, "total": 2653696, "data_path": "emb_store.bin", "index_path": "emb_store.index.jsonl", "version": 1}
